@@ -4,6 +4,7 @@
     align-items: center;
     padding: 10px 20px; 
     background-color: #319602; 
+
 }
 
 
@@ -11,4 +12,6 @@
 .center {
     display: flex;
     justify-content: center;
+    width: 100%;
+    text-align: center;
 }

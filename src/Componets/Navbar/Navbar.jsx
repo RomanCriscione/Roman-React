@@ -7,7 +7,7 @@ const Navbar = () => {
     return (
         <header className={classes.header}>
             <div className={classes.left}>
-                <h4>FitóPlantas</h4>
+                <Link to="/" className={classes.logo}>FitóPlantas</Link>
             </div>
             <nav className={classes.center}>
             <Link to="/category/plantas">Plantas</Link>
